@@ -7,7 +7,7 @@
    "outputs": [],
    "source": [
     "cube = 0.5   # この３乗根　\n",
-    "epsilon = 0.0001     # 精度\n",
+    "epsilon = 0.000001     # 精度\n",
     "count_guesses = 0\n",
     "guess = cube/2   # 初期値の設定\n",
     "while abs(guess**3 - cube) >= epsilon  :\n",
